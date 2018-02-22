@@ -4,8 +4,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/anacrolix/torrent/util"
 	"github.com/mh-cbon/dht/security"
+	"github.com/mh-cbon/dht/util"
 )
 
 // Bootstrap an initial dht table. Such table defines your location in the network and your ID's neighbors.

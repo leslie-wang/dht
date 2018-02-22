@@ -14,7 +14,6 @@ import (
 	"time"
 
 	"github.com/anacrolix/torrent/iplist"
-	"github.com/anacrolix/torrent/util"
 	"github.com/mh-cbon/dht/bootstrap"
 	"github.com/mh-cbon/dht/bucket"
 	"github.com/mh-cbon/dht/crypto"
@@ -25,6 +24,7 @@ import (
 	"github.com/mh-cbon/dht/rpc"
 	"github.com/mh-cbon/dht/security"
 	"github.com/mh-cbon/dht/socket"
+	"github.com/mh-cbon/dht/util"
 )
 
 func safeXORBytes(dst, a, b []byte) int {

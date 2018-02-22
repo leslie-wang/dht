@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/anacrolix/torrent/util"
 	"github.com/mh-cbon/dht/bootstrap"
 	"github.com/mh-cbon/dht/bucket"
 	"github.com/mh-cbon/dht/kmsg"
 	"github.com/mh-cbon/dht/socket"
 	"github.com/mh-cbon/dht/stats"
+	"github.com/mh-cbon/dht/util"
 	boom "github.com/tylertreat/BoomFilters"
 )
 
